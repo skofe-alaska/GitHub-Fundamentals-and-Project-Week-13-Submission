@@ -130,6 +130,7 @@ Create a playbook:
 To run your playbook:
 - "ansible-playbook metricbeat-playbook.yml"
 
+### Trouble Shooting and Common Problems
 I had problems with metricbeat, after running metric beat it would show everything had passed and updated, however I was not getting data in Kabana.
 
 -To correct this issue:
