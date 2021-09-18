@@ -105,7 +105,6 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 - [Ancible/hosts.cfg](Ansible/hosts.cfg)
 - [filebeat-config.yml](Ansible/Roles/Install-filebeat/filebeat-config.yml)
-- 
 - _Which URL do you navigate to in order to check that the ELK server is running? http://137.135.105.157:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
