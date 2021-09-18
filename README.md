@@ -109,7 +109,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 - Which file is the playbook? 
   - filebeat-playbook.yml
 - Where do you copy it? 
-  - /etc/ancible/roles/install-filebeat/tasks/filebeat-playbook.yml
+  - /etc/ansible/roles/install-filebeat/tasks/filebeat-playbook.yml
 - Which file do you update to make Ansible run the playbook on a specific machine?
   - [Ancible/hosts.cfg](Ansible/hosts.cfg)
  
