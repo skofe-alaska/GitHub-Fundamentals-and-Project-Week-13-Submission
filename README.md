@@ -129,3 +129,38 @@ Create a playbook:
 
 To run your playbook:
 - Ansible-playbook metricbeat-playbook.yml
+
+I had problems with metricbeat, after running metric beat it would show everything had passed and updated, however I was not getting data in Kabana.
+
+-To correct this issue:
+  - Added Web-3 as an additional VM
+  - updated the playbooks in the following files:
+  - /etc/ansible/roles/install-dvwa/task/main.yml
+  - /etc/ansible/roles/install-filebeat/tasks/main.yml
+  - /etc/ansible/roles/install-metricbeat/tasks/main.yml
+  
+ Samples of the three files are provided and may be copied in the raw for a template:
+ 
+ -
+ 
+ 
+ 
+
+
+
+Create a Metricbeat Configuration:
+- Create a file: nano metircbeat-config.yml
+  - Check line 62 and update to the IP address of your ELk Server and Port number (example 10.1.0.5:5601)
+  - Check line 96 and update to the IP address of your ELK Server and Port number (exampel 10.1.0.5:9200)
+
+  - You can copy the provided file from the raw for a template.
+  - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-metricbeat/metricbeat-config.yml
+
+Create a playbook:
+- Create a file: Nano metricbeat-playbook.yml
+
+  - You can copy the provided file from the raw for a template.
+  - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-metricbeat/metricbeat-playbook.yml
+
+To run your playbook:
+- Ansible-playbook metricbeat-playbook.yml
