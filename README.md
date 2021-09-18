@@ -10,6 +10,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-filebeat/filebeat-playbook.yml
 - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-metricbeat/metricbeat-playbook.yml
+- [filebeat.filebeat-playbook.yml](Ansible/Roles/Install-filebeat/filebeat-playbook.yml)
+- [metricbeat/metricbeat-playbook.yml](Ansible/Roles/Install-metricbeat/metricbeat-playbook.yml)
 
 
 This document contains the following details:
