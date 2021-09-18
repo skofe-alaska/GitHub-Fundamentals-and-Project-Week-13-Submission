@@ -106,9 +106,11 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to Kibana (Elk GUI interface) and click "Check Data" to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? filebeat-playbook.yml
-- _Where do you copy it? /etc/ancible/roles/install-filebeat/tasks/filebeat-playbook.yml
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+- Which file is the playbook? 
+  - filebeat-playbook.yml
+- Where do you copy it? 
+  - /etc/ancible/roles/install-filebeat/tasks/filebeat-playbook.yml
+- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 
 - [Ancible/hosts.cfg](Ansible/hosts.cfg)
 - [filebeat-config.yml](Ansible/Roles/Install-filebeat/filebeat-config.yml)
