@@ -150,8 +150,8 @@ The new files were run to update Web-1, Web-2, and Web-3.  Once completed I was 
 This was corrected by:
  - In Microsoft Azure deleated both Web-1 and Web-2
  - In Mirososft Azure rebuilt both Web-1 and Web-2
- - Ran the main.yml playbook again 
+ - Ran the playbook again 
 
  
 To run your playbook:
-- ansible-playbook main.yml
+- ansible-playbook webservers.yml
