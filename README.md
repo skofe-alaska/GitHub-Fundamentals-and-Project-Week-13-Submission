@@ -36,13 +36,13 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below.
 
-| Name     | Function | IP Address |  Operating System  |
-|----------|----------|------------|--------------------|
-| Jump Box | Gateway  | 10.0.0.4   |Linux (Ubuntu 18.04)|
-| Web-1    | Server   | 10.0.0.5   |Linux (Ubuntu 18.04)|
-| Web-2    | Server   | 10.0.0.6   |Linux (Ubuntu 18.04)|
-| Web-3    | Server   | 10.0.0.7   |Linux (Ubuntu 18.04)|
-|ELKStack  | Server   | 10.1.0.5   |Linux (Ubuntu 18.04)|
+| Name     |          Function               | IP Address |  Operating System  |
+|----------|---------------------------------|------------|--------------------|
+| Jump Box | Gateway & runs docker w/Ansible | 10.0.0.4   |Linux (Ubuntu 18.04)|
+| Web-1    | Web Server                      | 10.0.0.5   |Linux (Ubuntu 18.04)|
+| Web-2    | Web Server                      | 10.0.0.6   |Linux (Ubuntu 18.04)|
+| Web-3    | Web Server                      | 10.0.0.7   |Linux (Ubuntu 18.04)|
+|ELKStack  | Server (ELK Container & Kabana) | 10.1.0.5   |Linux (Ubuntu 18.04)|
 
 ### Access Policies
 
