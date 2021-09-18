@@ -8,8 +8,6 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-- https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-filebeat/filebeat-playbook.yml
-- https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-metricbeat/metricbeat-playbook.yml
 - [filebeat.filebeat-playbook.yml](Ansible/Roles/Install-filebeat/filebeat-playbook.yml)
 - [metricbeat/metricbeat-playbook.yml](Ansible/Roles/Install-metricbeat/metricbeat-playbook.yml)
 
@@ -106,8 +104,10 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 
 - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/hosts.cfg
+- [Ancible/hosts.cfg](Ansible/hosts.cfg)
 - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-filebeat/filebeat-config.yml
-
+- [filebeat-config.yml](Ansible/Roles/install-filebeat/filebeat-config.yml)
+- 
 - _Which URL do you navigate to in order to check that the ELK server is running? http://137.135.105.157:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
