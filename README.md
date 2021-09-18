@@ -104,8 +104,8 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Where do you copy it? /etc/ancible/roles/install-filebeat/tasks/filebeat-playbook.yml
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 
-https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/hosts.cfg
-https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-filebeat/filebeat-config.yml
+- https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/hosts.cfg
+- https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-filebeat/filebeat-config.yml
 
 - _Which URL do you navigate to in order to check that the ELK server is running? http://137.135.105.157:5601/app/kibana
 
