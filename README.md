@@ -75,8 +75,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
 ![Screen shot of running sucessful playbook](Images/Screenshot%20running%20playbook.png)
+
 ![Screen shot of metricbeat date being uploaded to Kabana](Images/Screenshot%20metricbeatdatarecieved.png)
 
 ### Target Machines & Beats
