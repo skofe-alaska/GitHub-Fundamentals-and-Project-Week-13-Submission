@@ -42,7 +42,7 @@ The configuration details of each machine may be found below.
 | Web-1    | Web Server                      | 10.0.0.5   |Linux (Ubuntu 18.04)|
 | Web-2    | Web Server                      | 10.0.0.6   |Linux (Ubuntu 18.04)|
 | Web-3    | Web Server                      | 10.0.0.7   |Linux (Ubuntu 18.04)|
-|ELKStack  | Server (ELK Container & Kabana) | 10.1.0.5   |Linux (Ubuntu 18.04)|
+|ELKStack  | Server (ELK Container & Kibana) | 10.1.0.5   |Linux (Ubuntu 18.04)|
 
 ### Access Policies
 
