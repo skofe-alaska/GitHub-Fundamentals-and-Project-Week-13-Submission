@@ -126,6 +126,7 @@ Create a playbook:
 - Create a file: Nano metricbeat-playbook.yml
 
   -You can copy the provided file from the raw for a template.
+  
   -https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-metricbeat/metricbeat-playbook.yml
 
 To run your playbook:
