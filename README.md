@@ -141,16 +141,11 @@ I had problems with metricbeat, after running metric beat it would show everythi
   - /etc/ansible/roles/install-metricbeat/tasks/main.yml
   
  Samples of the three files are provided and may be copied in the raw for a template:
- 
-  
+   
  - [Install-dvwa/main.yml](Ansible/Roles/install-dvwa/main.yml)
  - [Install-filebeat/mail.yml](Ansible/Roles/Install-filebeat/main.yml)
  - [Install-metricbeat/main.yml](Ansible/Roles/Install-metricbeat/main.yml)
  - [webservers.yml](Ansible/webservers.yml)
- 
- - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-Week-13-Submission/blob/main/Ansible/Roles/install-dvwa/main.yml
- - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-Week-13-Submission/blob/main/Ansible/Roles/Install-filebeat/main.yml
- - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-Week-13-Submission/blob/main/Ansible/Roles/Install-metricbeat/main.yml
  
 The new files were run to update Web-1, Web-2, and Web-3.  Once completed I was able to see that data was being recieved in Kabana from Web-3.  Web-1 and Web-2 still were not recieving data.
 
