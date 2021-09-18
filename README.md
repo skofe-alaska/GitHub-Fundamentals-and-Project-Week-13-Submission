@@ -103,9 +103,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Where do you copy it? /etc/ancible/roles/install-filebeat/tasks/filebeat-playbook.yml
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 
-- https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/hosts.cfg
 - [Ancible/hosts.cfg](Ansible/hosts.cfg)
-- https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-filebeat/filebeat-config.yml
 - [filebeat-config.yml](Ansible/Roles/Install-filebeat/filebeat-config.yml)
 - 
 - _Which URL do you navigate to in order to check that the ELK server is running? http://137.135.105.157:5601/app/kibana
@@ -130,7 +128,7 @@ Create a playbook:
   - [metricbeat/main.yml](Ansible/Roles/Install-metricbeat/metricbeat-playbook.yml)
 
 To run your playbook:
-- "ansible-playbook metricbeat-playbook.yml"
+- `ansible-playbook metricbeat-playbook.yml`
 
 ### Trouble Shooting and Common Problems
 I had problems with metricbeat, after running metric beat it would show everything had passed and updated, however I was not getting data in Kabana.
@@ -158,4 +156,4 @@ This was corrected by:
 
  
 To run your playbook:
-- "ansible-playbook webservers.yml"
+- `ansible-playbook webservers.yml`
