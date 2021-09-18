@@ -110,7 +110,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
-Provided example will be for a metricbeat playbook.
+### Provided example will be for a metricbeat playbook.
 
 
 Create a Metricbeat Configuration:
