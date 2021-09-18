@@ -1,5 +1,5 @@
-# GitHub-Fundamentals-and-Project-13-Submission
-GitHub Fundamentals and Project 13 Submission
+# GitHub-Fundamentals-and-Project-Week-13-Submission
+GitHub Fundamentals and Project Week 13 Submission
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
