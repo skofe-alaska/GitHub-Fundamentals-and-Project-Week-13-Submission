@@ -141,26 +141,9 @@ I had problems with metricbeat, after running metric beat it would show everythi
   
  Samples of the three files are provided and may be copied in the raw for a template:
  
- -
+ - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-Week-13-Submission/blob/main/Ansible/Roles/Install-dvwa%20tasks/main.yml
+ - 
  
- 
- 
-
-
-
-Create a Metricbeat Configuration:
-- Create a file: nano metircbeat-config.yml
-  - Check line 62 and update to the IP address of your ELk Server and Port number (example 10.1.0.5:5601)
-  - Check line 96 and update to the IP address of your ELK Server and Port number (exampel 10.1.0.5:9200)
-
-  - You can copy the provided file from the raw for a template.
-  - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-metricbeat/metricbeat-config.yml
-
-Create a playbook:
-- Create a file: Nano metricbeat-playbook.yml
-
-  - You can copy the provided file from the raw for a template.
-  - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-metricbeat/metricbeat-playbook.yml
 
 To run your playbook:
 - Ansible-playbook metricbeat-playbook.yml
