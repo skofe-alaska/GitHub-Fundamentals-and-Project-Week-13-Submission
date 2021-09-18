@@ -106,7 +106,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/hosts.cfg
 - [Ancible/hosts.cfg](Ansible/hosts.cfg)
 - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-filebeat/filebeat-config.yml
-- [filebeat-config.yml](Ansible/Roles/install-filebeat/filebeat-config.yml)
+- [filebeat-config.yml](Ansible/Roles/Install-filebeat/filebeat-config.yml)
 - 
 - _Which URL do you navigate to in order to check that the ELK server is running? http://137.135.105.157:5601/app/kibana
 
