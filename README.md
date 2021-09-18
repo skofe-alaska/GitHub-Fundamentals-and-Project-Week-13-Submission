@@ -119,7 +119,6 @@ Create a Metricbeat Configuration:
   - Check line 96 and update to the IP address of your ELK Server and Port number (exampel 10.1.0.5:9200)
 
   - You can copy the provided file from the raw for a template.
-  - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-metricbeat/metricbeat-config.yml
   - [metricbeat/config.yml](Ansible/Roles/Install-metricbeat/metricbeat-config.yml)
 
 Create a playbook:
