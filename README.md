@@ -128,7 +128,7 @@ Create a playbook:
   - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-metricbeat/metricbeat-playbook.yml
 
 To run your playbook:
-- ansible-playbook metricbeat-playbook.yml
+- "ansible-playbook metricbeat-playbook.yml"
 
 I had problems with metricbeat, after running metric beat it would show everything had passed and updated, however I was not getting data in Kabana.
 
@@ -154,4 +154,4 @@ This was corrected by:
 
  
 To run your playbook:
-- ansible-playbook webservers.yml
+- "ansible-playbook webservers.yml"
