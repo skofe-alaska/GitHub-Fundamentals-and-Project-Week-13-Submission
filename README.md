@@ -128,7 +128,7 @@ Create a playbook:
   - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-13-Submission/blob/main/Ansible/Roles/Install-metricbeat/metricbeat-playbook.yml
 
 To run your playbook:
-- Ansible-playbook metricbeat-playbook.yml
+- ansible-playbook metricbeat-playbook.yml
 
 I had problems with metricbeat, after running metric beat it would show everything had passed and updated, however I was not getting data in Kabana.
 
@@ -143,8 +143,15 @@ I had problems with metricbeat, after running metric beat it would show everythi
  
  - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-Week-13-Submission/blob/main/Ansible/Roles/Install-dvwa%20tasks/main.yml
  - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-Week-13-Submission/blob/main/Ansible/Roles/Install-filebeat/main.yml
- - 
+ - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-Week-13-Submission/blob/main/Ansible/Roles/Install-metricbeat/main.yml
  
+The new files were run to update Web-1, Web-2, and Web-3.  Once completed I was able to see that data was being recieved in Kabana from Web-3.  Web-1 and Web-2 still were not recieving data.
 
+This was corrected by:
+ - In Microsoft Azure deleated both Web-1 and Web-2
+ - In Mirososft Azure rebuilt both Web-1 and Web-2
+ - Ran the main.yml playbook again 
+
+ 
 To run your playbook:
-- Ansible-playbook metricbeat-playbook.yml
+- ansible-playbook main-playbook.yml
