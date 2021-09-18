@@ -55,7 +55,7 @@ Machines within the network can only be accessed by the Jump-Box-Provisioner VM.
 - Which machine did you allow to access your ELK VM?
   - Jump-Box-Provisioner VM
 - What was its IP address?
-  - Jump-Box-Provisioner VM Public IP address is 104.42.168.123 and Privat IP address is 10.0.0.4
+  - Jump-Box-Provisioner VM Public IP address is 104.42.168.123 and Private IP address is 10.0.0.4
 
 A summary of the access policies in place can be found in the table below.
 
