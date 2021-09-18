@@ -154,4 +154,4 @@ This was corrected by:
 
  
 To run your playbook:
-- ansible-playbook main-playbook.yml
+- ansible-playbook main.yml
