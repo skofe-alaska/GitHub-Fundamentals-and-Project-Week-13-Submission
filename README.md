@@ -142,6 +142,7 @@ I had problems with metricbeat, after running metric beat it would show everythi
  Samples of the three files are provided and may be copied in the raw for a template:
  
  - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-Week-13-Submission/blob/main/Ansible/Roles/Install-dvwa%20tasks/main.yml
+ - https://github.com/skofe-alaska/GitHub-Fundamentals-and-Project-Week-13-Submission/blob/main/Ansible/Roles/Install-filebeat/main.yml
  - 
  
 
