@@ -148,7 +148,7 @@ To run your playbook:
 ### Trouble Shooting and Common Problems
 I had problems with metricbeat, after running metric beat it would show everything had passed and updated, however I was not getting data in Kabana.
 
-## To correct this issue:
+# To correct this issue:
   - Added Web-3 as an additional VM
   - updated the playbooks in the following files:
   - /etc/ansible/roles/install-dvwa/task/main.yml
