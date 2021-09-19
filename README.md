@@ -30,7 +30,7 @@ Load balancing ensures that the application will be highly available, in additio
   - Load Balancers help to protect against a denial of service attack (DDoS) because the load balancer has the ability to analyzes the incoming traffic.  The Load balancer also  has the ability to determine which server to send the web traffic to in order to balance the load, this helps to prevent one server from becoming overloaded with traffic because the load balancer allows traffic to be distributed evenly among the servers that are connected to it. It is common for load balancers to have a health probe that periodically checks that the servers are working properly before sending traffic, in the event a server is not, the load balancer will divert traffic from the unavailbable server until that server become avaiable again.
 
 - What is the advantage of a jump box?
-  - A jump box limits the access that the public has to your virtual network. Other servers on the network are not directly exposed throuh a public IP.  In order to access the other servers on the network, an individual goes through the jumpbox, and needs the private IPs of the servers. In addition a jumpbox can allow for more uniformity and better version control for other servers on the network.
+  - A jump box limits the access that the public has to your virtual network. Other servers on the network are not directly exposed through a public IP.  In order to access the other servers on the network, an individual goes through the jumpbox, and needs the private IPs of the servers. In addition, a jumpbox can allow for more uniformity and better version control for other servers on the network.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
 - What does Filebeat watch for?
@@ -73,9 +73,9 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it allowed for ELK to be installed on multiple servers from a single ansible session, resulting in a more streamlined process and a uniform install across the servers. It also allowed versioin control or updates without having to manually check each server.
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it allowed for ELK to be installed on multiple servers from a single ansible session, resulting in a more streamlined process and a uniform install across the servers. It also allowed version control or updates without having to manually check each server.
 - What is the main advantage of automating configuration with Ansible?
-  - Ansible allowed us configure mulitple servers with identical services without having to manually configure each server indivudially allowing us to save time and have uniform services among the servers.  
+  - Ansible allowed us to configure mulitple servers with identical services without having to manually configure each server individually allowing us to save time and have uniform services among the servers.  
 
 The playbook implements the following tasks:
 - In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
