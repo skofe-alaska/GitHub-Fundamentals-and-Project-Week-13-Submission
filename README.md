@@ -137,7 +137,7 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 Create a Metricbeat Configuration:
 - Create a file: nano metircbeat-config.yml
   - Check line 62 and update to the IP address of your ELk Server and Port number (example 10.1.0.5:5601)
-  - Check line 96 and update to the IP address of your ELK Server and Port number (exampel 10.1.0.5:9200)
+  - Check line 96 and update to the IP address of your ELK Server and Port number (example 10.1.0.5:9200)
 
   - You can copy the provided file from the raw for a template.
   - [metricbeat/config.yml](Ansible/Roles/Install-metricbeat/metricbeat-config.yml)
@@ -151,7 +151,7 @@ Create a playbook:
 To run your playbook:
 - `ansible-playbook metricbeat-playbook.yml`
 
-### Trouble Shooting and Common Problems
+### Troubleshooting and Common Problems
 I had problems with metricbeat, after running metric beat it would show everything had passed and updated, however I was not getting data in Kabana.
 
 #### To correct this issue:
