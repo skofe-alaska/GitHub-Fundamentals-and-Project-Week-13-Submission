@@ -43,9 +43,9 @@ The configuration details of each machine may be found below.
 | Name     |          Function               | IP Address |  Operating System  |
 |----------|---------------------------------|------------|--------------------|
 | Jump Box | Gateway & runs docker w/Ansible | 10.0.0.4   |Linux (Ubuntu 18.04)|
-| Web-1    | Web Server                      | 10.0.0.5   |Linux (Ubuntu 18.04)|
-| Web-2    | Web Server                      | 10.0.0.6   |Linux (Ubuntu 18.04)|
-| Web-3    | Web Server                      | 10.0.0.7   |Linux (Ubuntu 18.04)|
+| Web-1    | Web Server w/DVWA               | 10.0.0.5   |Linux (Ubuntu 18.04)|
+| Web-2    | Web Server w/DVWA               | 10.0.0.6   |Linux (Ubuntu 18.04)|
+| Web-3    | Web Server w/DVWA               | 10.0.0.7   |Linux (Ubuntu 18.04)|
 |ELKStack  | Server (ELK Container & Kibana) | 10.1.0.5   |Linux (Ubuntu 18.04)|
 
 ### Access Policies
@@ -75,7 +75,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it allowed for ELK to be installed on multiple servers from a single ansible session, resulting in a more streamlined process and a uniform install across the servers. It also allowed versioin control or updates without having to manually check each server.
 - What is the main advantage of automating configuration with Ansible?
-  - answer
+  - Ansible allowed us configure mulitple servers with identical services without having to manually configure each server indivudially allowig us to save time and have uniform services among the servers.  
 
 The playbook implements the following tasks:
 - In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
