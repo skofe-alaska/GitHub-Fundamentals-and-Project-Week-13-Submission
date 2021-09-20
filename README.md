@@ -10,6 +10,7 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
 - [DVWA.yml]( )
+- [Configure-Web-VM-with-Docker.yml](Ansible/config_web_vm_with_docker.yml)
 - [Configure-Elk-VM-with-Docker.yml](Ansible/Configure_Elk_VM_with_docker.yml)
 - [filebeat/filebeat-playbook.yml](Ansible/Roles/Install-filebeat/filebeat-playbook.yml)
 - [metricbeat/metricbeat-playbook.yml](Ansible/Roles/Install-metricbeat/metricbeat-playbook.yml)
