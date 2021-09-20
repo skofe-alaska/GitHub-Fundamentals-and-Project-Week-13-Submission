@@ -13,7 +13,9 @@ These files have been tested and used to generate a live ELK deployment on Azure
 - [Configure-Web-VM-with-Docker.yml](Ansible/config_web_vm_with_docker.yml)
 - [Configure-Elk-VM-with-Docker.yml](Ansible/Configure_Elk_VM_with_docker.yml)
 - [filebeat/filebeat-playbook.yml](Ansible/Roles/Install-filebeat/filebeat-playbook.yml)
+- [filebeat/filebeat-config.yml](Ansible/Roles/Install-filebeat/filebeat-config.yml)
 - [metricbeat/metricbeat-playbook.yml](Ansible/Roles/Install-metricbeat/metricbeat-playbook.yml)
+- [metricbeat/metricbeat-config.yml](Ansible/Roles/Install-metricbeat/metricbeat-config.yml)
 
 
 This document contains the following details:
