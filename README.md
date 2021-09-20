@@ -71,9 +71,9 @@ A summary of the access policies in place can be found in the table below.
 |     Name     | Publicly Accessible | Allowed IP Addresses |
 |--------------|---------------------|----------------------|
 | Jump Box     | Yes                 |Home Network Public IP|
-| Web-1        | No                  | 10.0.0.5             |
-| Web-2        | No                  | 10.0.0.6             |
-| Web-3        | No		               | 10.0.0.7             |
+| Web-1        | Yes (Port 80)       |Home Network Public IP|
+| Web-2        | Yes (Port 80)       |Home Network Public IP|
+| Web-3        | Yes (Port 80)       |Home Network Public IP|
 | ELKStack     | Yes (Port 5601)     |Home Network Public IP|
 |Load Balancer | Yes (Port 80)       |Home Network Public IP|
 
