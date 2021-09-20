@@ -110,7 +110,8 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 - In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
-  - answer
+  - Filebeat collects log information about the file system and specifies which files have been changed and when a file was changed to either Elasticsearch or Logstash. To see the output from Filebeat, connect to Kibana and check the logs for changes that were  made to the file system over a period of time (as an example the last day, 7days, etc).
+  -  Metricbeat shows information for the every process running on your system including memory, CPU usage, file system, Network IO and disk IO statics. To view the data collected, To see the data, connect to Kibana, select the sytem to review and review the metrics of the system.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
